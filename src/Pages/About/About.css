@@ -1,0 +1,26 @@
+
+.about-main{
+    background-color: #030311;
+    color: #fff;
+}
+.about-header{
+    font-size: 40px;
+    padding-top: 10px;
+
+}
+
+.about-content h2{
+
+}
+.about-content h4{}
+.about-content p{
+    font-size: 20px;
+}
+
+
+.progress-bar{
+    background-color: #030311;
+}
+.my-progress-bar {
+    margin: 20px 0;
+}
