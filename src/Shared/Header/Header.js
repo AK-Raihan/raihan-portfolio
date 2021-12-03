@@ -32,7 +32,7 @@ const Header = () => {
                     </a>
                   </li>
                 </ul>
-                  <Button>Hire Me</Button>
+                  <button className="btn btn-outline-info">Hire Me</button>
                 </div>
               </div>
             </nav>
