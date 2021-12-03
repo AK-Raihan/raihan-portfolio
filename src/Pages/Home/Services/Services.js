@@ -21,7 +21,7 @@ const Services = () => {
                     <div className="col-lg-4" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
-                        <img className="img-fluid" src={service2} alt="" />
+                        <img className="img-fluid"  src={service2} alt="" />
                         <h2 className="mt-4 text-info">Frontend Development</h2>
                     </div>
                     <div className="col-lg-4" data-aos="zoom-in-right"

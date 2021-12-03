@@ -16,7 +16,7 @@ const About = () => {
                 <div className="row">
                     <div className="col-lg-6 d-flex align-items-center">
                         <div className="about-img" data-aos="fade-up" data-aos-duration="2000">
-                                <img src={img} alt="" />
+                                <img className="img-fluid" src={img} alt="" />
                         </div>    
                     </div>
                     <div className="col-lg-6 d-flex align-items-center">
@@ -27,10 +27,10 @@ const About = () => {
                             I am self-motivated so I can work alone but I also have great interpersonal skills that make it easy to work with a team both inside and outside the my country. I can work on more than one project.
                             </p>
                             <NavLink to="/contact" >
-                                <Button data-aos="zoom-in-up"
+                                <button data-aos="zoom-in-up"
                                     data-aos-easing="ease-out-cubic"
-                                    data-aos-duration="1000" className="p-2">Know me better
-                                </Button>
+                                    data-aos-duration="1000" className="p-2 btn btn-outline-info">Know me better
+                                </button>
                             </NavLink>
                         </div>
                         

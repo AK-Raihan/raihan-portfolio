@@ -83,8 +83,8 @@ const Projects = () => {
                         <h5 className="text-start">Summary</h5>
                             <ul className="g-2 card-details">
                                 <li className="text-start">Firebase authentication</li>
-                                <li className="text-start">User and Admin dashboard</li>
                                 <li className="text-start">user order and drop review</li>
+                                <li className="text-start">manage order and product</li>
                                 
                             </ul>
                         </p>
@@ -111,20 +111,17 @@ const Projects = () => {
                                 <li>Javascript</li>
                                 <li>React</li>
                                 <li>Node</li>
-                                <li>MongoDb</li>
                                 <li>Express js</li>
                                 <li>Firebase</li>
-                                <li>Horuku</li>
                                 <li>Bootstrap</li>
-                                <li>MUI</li>
                             </ul>
                         </p>
                         <p class="card-text"> 
                         <h5 className="text-start">Summary</h5>
                             <ul className="g-2 card-details">
                                 <li className="text-start">Firebase authentication</li>
-                                <li className="text-start">User and Admin dashboard</li>
-                                <li className="text-start">user order and drop review</li>
+                                <li className="text-start">Show service </li>
+                                
                                 
                             </ul>
                         </p>
@@ -150,20 +147,19 @@ const Projects = () => {
                                 <li>Javascript</li>
                                 <li>React</li>
                                 <li>Node</li>
-                                <li>MongoDb</li>
                                 <li>Express js</li>
-                                <li>Firebase</li>
-                                <li>Horuku</li>
                                 <li>Bootstrap</li>
-                                <li>MUI</li>
+                                <li>Html</li>
+                                <li>Css</li>
+
                             </ul>
                         </p>
                         <p class="col-lg-4 col-md-6"> 
                         <h5 className="text-start">Summary</h5>
                             <ul className="g-2 card-details">
-                                <li className="text-start">Firebase authentication</li>
-                                <li className="text-start">User and Admin dashboard</li>
-                                <li className="text-start">user order and drop review</li>
+                                <li className="text-start">Actor Show</li>
+                                <li className="text-start">Bock actoor</li>
+                                <li className="text-start">Show actor in card</li>
                                 
                             </ul>
                         </p>
@@ -189,20 +185,17 @@ const Projects = () => {
                                 <li>Javascript</li>
                                 <li>React</li>
                                 <li>Node</li>
-                                <li>MongoDb</li>
                                 <li>Express js</li>
-                                <li>Firebase</li>
-                                <li>Horuku</li>
                                 <li>Bootstrap</li>
-                                <li>MUI</li>
+                                <li>Html</li>
+                                <li>Css</li>
                             </ul>
                         </p>
                         <p class="card-text"> 
                         <h5 className="text-start">Summary</h5>
                             <ul className="g-2 card-details">
-                                <li className="text-start">Firebase authentication</li>
-                                <li className="text-start">User and Admin dashboard</li>
-                                <li className="text-start">user order and drop review</li>
+                                <li className="text-start">School Service</li>
+                                <li className="text-start">All course show</li>
                                 
                             </ul>
                         </p>
@@ -225,23 +218,17 @@ const Projects = () => {
                         <p class="card-text"> 
                         <h5 className="text-start">usees tecnologies</h5>
                             <ul className="list-unstyled g-2 d-flex flex-wrap card-details">
-                                <li>Javascript</li>
-                                <li>React</li>
-                                <li>Node</li>
-                                <li>MongoDb</li>
-                                <li>Express js</li>
-                                <li>Firebase</li>
-                                <li>Horuku</li>
+                                <li>Html</li>
+                                <li>Css</li>
                                 <li>Bootstrap</li>
-                                <li>MUI</li>
                             </ul>
                         </p>
                         <p class="card-text"> 
                         <h5 className="text-start">Summary</h5>
                             <ul className="g-2 card-details">
-                                <li className="text-start">Firebase authentication</li>
-                                <li className="text-start">User and Admin dashboard</li>
-                                <li className="text-start">user order and drop review</li>
+                                <li className="text-start">Desingn a page</li>
+                                <li className="text-start">Show player in card</li>
+                                <li className="text-start">Video gallery</li>
                                 
                             </ul>
                         </p>
