@@ -1,8 +1,22 @@
 import React from 'react';
 import './About.css'
 import img from '../../images/about.png'
-import { Button, ProgressBar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import img1 from '../../images/img (1).png'
+import img2 from '../../images/img (9).png'
+import img3 from '../../images/img (11).png'
+import img4 from '../../images/img (10).png'
+import img5 from '../../images/img (15).png'
+import img6 from '../../images/img (6).png'
+import img7 from '../../images/img (5).png'
+import img8 from '../../images/img (12).png'
+import img9 from '../../images/img (2).png'
+import img10 from '../../images/img (3).png'
+import img11 from '../../images/img (4).png'
+import img12 from '../../images/img (7).png'
+import img13 from '../../images/img (8).png'
+import img14 from '../../images/img (13).png'
+import img15 from '../../images/img (14).png'
 
 const About = () => {
     return (
@@ -23,8 +37,8 @@ const About = () => {
                         <div className="about-content text-start" data-aos="fade-down" data-aos-duration="2000">
                             <h2>I'm a Passionate</h2>
                             <h4>Web developer</h4>
-                            <p>Hi, I am Raihan. From Bangladesh. I think, as a Frontend Developer my skill is perfect.
-                            I am self-motivated so I can work alone but I also have great interpersonal skills that make it easy to work with a team both inside and outside the my country. I can work on more than one project.
+                            <p>Hi, I am Raihan. From Bangladesh. I think, as a Frontend Developer my img is perfect.
+                            I am self-motivated so I can work alone but I also have great interpersonal imgs that make it easy to work with a team both inside and outside the my country. I can work on more than one project.
                             </p>
                             <NavLink to="/contact" >
                                 <button data-aos="zoom-in-up"
@@ -36,22 +50,58 @@ const About = () => {
                         
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-lg-2"></div>
-                    <div className="col-lg-8">
-                        <div className="progress-bar">
-                            <h2>Top Skill</h2>
-                        <ProgressBar variant="success" className="mt-3" label={`Html ${90}%`} animated now={90} />
-                        <ProgressBar variant="info" className="mt-3" label={`Css ${85}%`} animated now={85} />
-                        <ProgressBar variant="success" className="mt-3" label={`Bootstrap ${90}%`} animated now={90} />
-                        <ProgressBar variant="info" className="mt-3" label={`javascript ${85}%`} animated now={85} />
-                        <ProgressBar variant="warning" className="mt-3" label={`React js ${80}%`} animated now={80} />
-                        <ProgressBar variant="danger" className="mt-3" label={`Node js ${65}%`} animated now={65} />
-                        <ProgressBar variant="info" className="mt-3" label={`Mongodb ${80}%`} animated now={80} />
-                        <ProgressBar variant="primary" className="mt-3" label={`Express${70}%`} animated now={70} />
-                        </div>
+                <div className="skill">
+                    <h1>Top Skill</h1>
+                <div className="row" data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
+                    <div className="col-lg-2 col-md-4 col-sm-6">
+                        <img className="img-fluid" src={img1} alt="" />
                     </div>
-                    <div className="col-lg-2"></div>
+                    <div className="col-lg-2 col-md-4 col-sm-6">
+                        <img className="img-fluid" src={img2} alt="" />
+                    </div>
+                    <div className="col-lg-2 col-md-4 col-sm-6">
+                        <img className="img-fluid" src={img3} alt="" />
+                    </div>
+                    <div className="col-lg-2 col-md-4 col-sm-6">
+                        <img className="img-fluid" src={img4} alt="" />
+                    </div>
+                    <div className="col-lg-2 col-md-4 col-sm-6">
+                        <img className="img-fluid" src={img5} alt="" />
+                    </div>
+                    <div className="col-lg-2 col-md-4 col-sm-6">
+                        <img className="img-fluid" src={img6} alt="" />
+                    </div>
+                    <div className=" col-lg-2 col-md-4 col-sm-6">
+                        <img className="img-fluid" src={img7} alt="" />
+                    </div>
+                    <div className="col-lg-2 col-md-4 col-sm-6">
+                        <img className="img-fluid" src={img8} alt="" />
+                    </div>
+                    <div className="col-lg-2 col-md-4 col-sm-6">
+                        <img className="img-fluid" src={img9} alt="" />
+                    </div>
+                    <div className="col-lg-2 col-md-4 col-sm-6">
+                        <img className="img-fluid" src={img10} alt="" />
+                    </div>
+                    <div className="col-lg-2 col-md-4 col-sm-6">
+                        <img className="img-fluid" src={img11} alt="" />
+                    </div>
+                    <div className="col-lg-2 col-md-4 col-sm-6">
+                        <img className="img-fluid" src={img12} alt="" />
+                    </div>
+                    <div className="col-lg-2 col-md-4 col-sm-6">
+                        <img className="img-fluid" src={img13} alt="" />
+                    </div>
+                    <div className="col-lg-2 col-md-4 col-sm-6">
+                        <img className="img-fluid" src={img14} alt="" />
+                    </div>
+                    <div className="col-lg-2 col-md-4 col-sm-6">
+                        <img className="img-fluid" src={img15} alt="" />
+                    </div>
+                    
+                </div>
                 </div>
             </div>
         </div>

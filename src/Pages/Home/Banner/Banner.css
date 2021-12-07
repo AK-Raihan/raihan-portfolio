@@ -12,3 +12,13 @@
 .banner-main h3{
     margin: 20px 0;
 }
+
+
+/* resposive */
+
+
+@media screen and (max-width: 700px) {
+    .banner-main h3{
+        font-size: 20px;
+    }
+     }

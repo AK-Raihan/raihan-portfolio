@@ -32,7 +32,9 @@ const Header = () => {
                     </a>
                   </li>
                 </ul>
+                  <NavLink to="/contact">
                   <button className="btn btn-outline-info">Hire Me</button>
+                  </NavLink>
                 </div>
               </div>
             </nav>

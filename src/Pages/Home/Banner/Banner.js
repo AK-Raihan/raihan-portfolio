@@ -19,10 +19,10 @@ const Banner = () => {
                         <div className="banner-content" data-aos="fade-right" data-aos-duration="2000">
                         <h5 >Welcome to my world</h5>
                         <h1 >  Hi, I'm Koushik Raihan</h1>
-                    <h1> I build   
+                    <h3>I work with   
                 <span className="text-danger ms-3">
                     <Typewriter
-                        words={['web interface', 'e-commerce site', 'portfolio website', 'service website' ]}
+                        words={['web interface', 'frontend development', 'ui/ux design', 'fullstack development']}
                         loop={50}
                         cursor
                         cursorStyle='_'
@@ -31,7 +31,7 @@ const Banner = () => {
                         delaySpeed={1000}
                     />
                 </span>
-                    </h1>
+                    </h3>
                     <h3 className="text-white">based in world wide</h3>
                     <a target="_blank" href="https://drive.google.com/file/d/1QvFJD2QRRnXDbw9GyfV2A7GhUXxxemdC/view?usp=sharing"><button className="btn btn-outline-info" >Dawnload Resume</button></a>
                         </div>
